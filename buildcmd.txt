@@ -1,0 +1,1 @@
+pyinstaller img_flip_gui_2.py --noconsole --onefile --collect-all TkinterDnD2 --icon=logo.ico --additional-hooks-dir=.
