@@ -1,0 +1,4 @@
+Pillow
+ttkthemes
+tkinterdnd2
+pywin32
