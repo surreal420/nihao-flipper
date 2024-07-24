@@ -30,7 +30,7 @@ python3 nihao.py
 
 ## Compile
 
-You will need `pyinstaller` first.
+You will need to install `pyinstaller`.
 
 ```bash
 pip install pyinstaller
