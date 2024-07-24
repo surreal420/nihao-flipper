@@ -30,13 +30,15 @@ python3 nihao.py
 
 ## Compile
 
-You will need `pyinstaller`.
+You will need `pyinstaller` first.
 
 ```bash
 pip install pyinstaller
 ```
 
-Then:
+Then, download `hook-tkinterdnd2.py` from [here](https://github.com/pmgagne/tkinterdnd2/blob/master/hook-tkinterdnd2.py).
+
+Put it in the same folder of `nihao.py` and run:
 
 ```bash
 pyinstaller nihao.py --noconsole --onefile --collect-all TkinterDnD2 --icon=logo.ico --additional-hooks-dir=.
